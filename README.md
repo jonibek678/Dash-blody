@@ -1,8 +1,4 @@
 # Dash-blod
-# Dash-blody
-
-Bu loyiha Pterodactyl uslubidagi Minecraft server uchun dashboard hisoblanadi. Foydalanuvchi server konsoliga komanda yuborishi va jonli loglarni ko‘rishi mumkin.
-
 ## Frontend (React)
 
 ```jsx
@@ -11,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
-const ws = new WebSocket("ws://localhost:3001"); // Backend WebSocket manzili
+const ws = new WebSocket("ws://localhost:3001");
 
 export default function App() {
   const [logs, setLogs] = useState([]);
